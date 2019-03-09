@@ -5,8 +5,8 @@
     margin-right:-500px;
     position: absolute;
     color: rgb(255, 255, 255);
-    font-size: 20px;
-    margin-top: 400px;
+    font-size: 22px;
+    margin-top: 100px;
     margin-bottom: 50px;
     font-family:"roninfont";
     background-color: #111111;
@@ -44,13 +44,6 @@ a {
     font-size: 20px;
 }
 
-img {
-    position: absolute;
-    left: 50%;
-    margin-left: -400px;
-    margin-right: auto;
-}
-
 body {
     background-position: center;
     position: relative;
@@ -72,7 +65,7 @@ body {
     text-align:center;
     opacity:0.6;
     position:absolute;
-    margin-top: 345px;
+    margin-top: 40px;
     margin-left: -332px;
     font-size: 24px; 
     font-family:"roninfont";
@@ -92,7 +85,7 @@ body {
     text-align:center;
     opacity:0.6;
     position:absolute;
-    margin-top: 345px;
+    margin-top: 40px;
     margin-left: -108px;
     font-size: 24px; 
     font-family:"roninfont";
@@ -112,7 +105,7 @@ body {
     text-align:center;
     opacity:0.6;
     position:absolute;
-    margin-top: 345px;
+    margin-top: 40px;
     margin-left: 116px;
     font-size: 24px; 
     font-family:"roninfont";
@@ -153,13 +146,6 @@ body {
     position:absolute;
     opacity:1.0;
     color:rgb(240, 180, 40);
-}
-
-#title {
-    margin-top:250px;
-    margin-left:495px;
-    font-size: 50px;
-    position:absolute;
 }
 
 @font-face {
