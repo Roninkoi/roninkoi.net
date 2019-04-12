@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/roninkoi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://roninkoi.net
+  * I am roninkoi (https://keybase.io/roninkoi) on keybase.
+  * I have a public key with fingerprint CA56 CA06 16E9 12F4 A750  E40E AECA 797B 126D 75BD
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101133d094cea2b3380ba6a13e6bb65060df4ab6be4634d8e0a6bae15d06c0d42470a",
+      "fingerprint": "ca56ca0616e912f4a750e40eaeca797b126d75bd",
+      "host": "keybase.io",
+      "key_id": "aeca797b126d75bd",
+      "kid": "0101133d094cea2b3380ba6a13e6bb65060df4ab6be4634d8e0a6bae15d06c0d42470a",
+      "uid": "b2cb5395f53d115980a4dfbaad105219",
+      "username": "roninkoi"
+    },
+    "service": {
+      "hostname": "roninkoi.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1555037029,
+  "expire_in": 157680000,
+  "prev": "c65cebb0ee749666bb2307d894fecc52943ba21068dccae575475b6955b42df5",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUltIFUEYPsfsZhoSXZDSaDECMZm9zOzZk5IPRhcCLQothMPMzhzPpu0ed1dN
+zaCHpEgisqiXwJTQB7EbJYiV0cU6SiIVdNOih0Ks7AT2ommzUi/RY/MyzD/f9/3f
+//GfTpnnS/B3xWrrlx2suu0fGCO+0itT0XqBWLRWCNYL5WzuYhWUOW6o3KBCUAAi
+EEVZpkBTdIYlIssBQDDCoswQIQgCBGhYwQQRpiBZoQEGMCKYiZACpAOqSIoKsJAt
+hA2zjNlR2zBdLqtjiHQMkIiYJkpcQIWAKYBhpmNVU4koIapCQjkxYjkeg5sj2GE5
+hsVr/BGas/cP/H/2XTUnRySdQFmDYShTUYRaAGCFhgnGVARQEjUP6DDbxAcZR9uW
+aZjlliE0ZAu8Wm3ozAvWm+QvRI7JXM6N2pZr6VYF/4m4btQJeky3NupBaxgJ/RYJ
+EcOkPEfOqGa2Y1imEBQ5UncNT1WEEAJZBZKWLbBDUcNmIcNDQBUFAD9eH1btpY+g
+zggpAYypioYQT0SSgUoDmhJmug4lTZEJlkSAAlTXMYMqVHi6SIOQKBINQ8Gbq9K0
+hKDCfeIyrukYZSZ2q2wmNCSd8K9J9PkTfAvmJ3gb5ktanPpn7VoaF87u35Zy4mtz
+y7t4d+PbG6uGB+5ltHT2h/c58e0Xx+jo1mvJ63/29vorWpN3RI5MteWnLckJ3Y5V
+nbd39eV1XL8Uz5wojL68svRDxFle1yRsHHRW5k9AZzSwounMovZND5YUv39+1elL
+zWwLfn84nnx35vznwX57xr/61FD+9sJvi2+ZrRtqCmYHx1sLZzqnP+27OTT9ZmRY
+1Is2xuqa73/MfV1cObL5sW/L7q700YqeR5NMu/xx6qR/5/6Egp6z6edKRjLihI3N
+kvbcRZGM7sHC43sam48NnTt9+E7a+KOjRT/ay+6Gsp7EsjqeNWwY/lJ648Dakgsv
+9r6y1yXGlz5Nj0w25P0C
+=i2ar
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/roninkoi
+
+==================================================================
