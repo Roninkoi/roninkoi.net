@@ -1,8 +1,15 @@
 .vid {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 25px;
-	height: 0;
+	padding-bottom: 40%;
+	
+	border: 3px solid cyan;
+	
+	position:absolute;
+	left:0; right:0;
+	top:0; bottom:0;
+	margin:auto;
+	max-width:100%;
+	max-height:100%;
+	overflow:auto;
 }
 .vid iframe {
 	position: absolute;
