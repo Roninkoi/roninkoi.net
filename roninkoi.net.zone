@@ -1,9 +1,0 @@
-$TTL 900
-* IN A 185.199.108.153
-www IN CNAME http://roninkoi.github.io/
-@ IN A 185.199.109.153
-@ IN A 185.199.110.153
-@ IN TXT google-site-verification=cY2Pdpi4TcxSRDM1Em6ELXPjmQ-loUebu0AJe27vw44
-blog IN A 64.98.145.30
-irc IN A 84.251.248.35
-@ IN A 185.199.111.153
