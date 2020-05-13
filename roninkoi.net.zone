@@ -1,0 +1,9 @@
+$TTL 900
+www IN CNAME http://roninkoi.net/
+@ IN A 185.199.109.153
+@ IN A 185.199.110.153
+@ IN TXT google-site-verification=cY2Pdpi4TcxSRDM1Em6ELXPjmQ-loUebu0AJe27vw44
+irc IN A 84.251.248.35
+@ IN A 185.199.111.153
+blog IN CNAME https://roninkoit.blogspot.com/
+* IN A 185.199.108.153
