@@ -158,3 +158,8 @@ body {
     font-family: "roninfont";
     src: url(font.ttf) format("truetype");
 }
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
