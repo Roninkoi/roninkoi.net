@@ -129,7 +129,7 @@ vec3 matCol(vec2 o)
  
 void main()
 {
-    t = -iTime * 0.4;
+    t = -time * 0.4;
    
     vec2 uv = v_pos.xy * 0.5;
     //uv -= 0.5;
