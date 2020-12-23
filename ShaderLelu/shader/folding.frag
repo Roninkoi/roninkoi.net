@@ -70,5 +70,5 @@ void main()
     col *= cm;
     col /= exp(z*z);
 
-    gl_fragColor = vec4(col, 1.0);
+    gl_FragColor = vec4(col, 1.0);
 }
