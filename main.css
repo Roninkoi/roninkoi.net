@@ -75,7 +75,6 @@ body {
     margin-top: 345px;
     margin-left: -332px;
     font-size: 24px; 
-    font-family:"roninfont";
 }
 #a1:hover {
     background:rgb(160,182,196);
@@ -95,7 +94,6 @@ body {
     margin-top: 345px;
     margin-left: -108px;
     font-size: 24px; 
-    font-family:"roninfont";
 }
 #a2:hover {
     background:rgb(160,182,196);
@@ -115,7 +113,6 @@ body {
     margin-top: 345px;
     margin-left: 116px;
     font-size: 24px; 
-    font-family:"roninfont";
 }
 #a3:hover {
     background:rgb(160,182,196);
@@ -148,8 +145,8 @@ body {
 }
 
 #title {
-    margin-top:250px;
-    margin-left:495px;
+    //margin-top:250px;
+    //margin-left:495px;
     font-size: 50px;
     position:absolute;
 }

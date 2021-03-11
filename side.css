@@ -27,14 +27,17 @@ h {
     float:left;
 }
 
-#a1, #a2, #a3, #l1, #l2, #l3, #l4, #l5 {
+#a1, #a2, #a3 {
     left: 50%;
     position: absolute;
     margin-right: auto;
     color: #ffffff;
     font-family:"roninfont";
-    font-size: 20px;
-    margin-top: 0px;
+    font-size: 24px;
+    margin-top: 25px;
+    width:192px;
+    height:30px;
+    padding:6px 6px;
 }
 
 a {
@@ -56,19 +59,13 @@ body {
 }
 
 #a1 {
-    padding:6px 6px;
-    width:192px;
-    height:30px;
     background:rgb(60,82,96);
     color:#eee;
     float:left;
     text-align:center;
     opacity:0.6;
     position:absolute;
-    margin-top: 40px;
     margin-left: -332px;
-    font-size: 24px; 
-    font-family:"roninfont";
 }
 #a1:hover {
     background:rgb(160,182,196);
@@ -76,19 +73,13 @@ body {
 }
 
 #a2 {
-    padding:6px 6px;
-    width:192px;
-    height:30px;
     background:rgb(60,82,96);
     color:#eee;
     float:left;
     text-align:center;
     opacity:0.6;
     position:absolute;
-    margin-top: 40px;
     margin-left: -108px;
-    font-size: 24px; 
-    font-family:"roninfont";
 }
 #a2:hover {
     background:rgb(160,182,196);
@@ -96,48 +87,17 @@ body {
 }
 
 #a3 {
-    padding:6px 6px;
-    width:192px;
-    height:30px;
     background:rgb(60,82,96);
     color:#eee;
     float:left;
     text-align:center;
     opacity:0.6;
     position:absolute;
-    margin-top: 40px;
     margin-left: 116px;
-    font-size: 24px; 
-    font-family:"roninfont";
 }
 #a3:hover {
     background:rgb(160,182,196);
     color:#000
-}
-
-#l1 {
-    margin-top:0px;
-    margin-left:-210px;
-    font-size: 18px; 
-    position:absolute;
-    opacity:1.0;
-    color:rgb(240, 180, 40);
-}
-#l2 {
-    margin-top:0px;
-    margin-left:-40px;
-    font-size: 18px; 
-    position:absolute;
-    opacity:1.0;
-    color:rgb(240, 180, 40);
-}
-#l3 {
-    margin-top:0px;
-    margin-left:130px;
-    font-size: 18px;
-    position:absolute;
-    opacity:1.0;
-    color:rgb(240, 180, 40);
 }
 
 @font-face {
