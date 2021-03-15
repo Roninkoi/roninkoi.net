@@ -177,10 +177,9 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord)
     obj = rotY(t);
     obj *= mat3(2.);
    
-    vec2 uv = v_pos.xy / resolution.xy;
-    uv -= 0.5;
+    vec2 uv = v_pos * 0.5;
     uv.x *= resolution.x / resolution.y;
-   
+
     mat3 cam = rotY(-PI) * rotX(0.3);
        
     vec3 ro = vec3(0., 0.5, -3.3);
