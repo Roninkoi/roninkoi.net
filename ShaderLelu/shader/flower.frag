@@ -132,16 +132,16 @@ vec2 map(vec3 r)
     
     vec2 b1 = vec2(
         bud(rotX(0.6) * rotZ(-0.1) * rb1, 2.),
-        mod((sin(rb1.xyz * 5.) * cos(rb1.yxz * 5.) * 2.), 2.)
+        floor(mod((sin(rb1.xyz * 5.) * cos(rb1.yxz * 5.) * 2.), 2.))
     );
 	vec2 s1 = vec2(
         stem(rb1 + vec3(0., 7., 1.), vec2(.3, 6.81)),
-        mod((sin(rb1.y * 3.1) * 2.), 2.) + 2
+        floor(mod((sin(rb1.y * 3.1) * 2.), 2.) + 2.)
     );
 	
 	vec2 l1 = vec2(
         leaf(rb1 + vec3(1.5, 5., 2.2), vec3(1., 0.1, 1.0)),
-        mod((sin(rb1.x * rb1.z * 4.1) * 2.), 2.) + 4
+        floor(mod((sin(rb1.x * rb1.z * 4.1) * 2.), 2.)) + 4.
     );
     
     return minx2(l1, minx2(b1, s1));
@@ -170,7 +170,7 @@ vec3 matCol(vec2 o)
     return vec3(0.);
 }
 
-void mainImage(out vec4 fragColor, in vec2 fragCoord)
+void main()
 {
     t = -time * 0.4;
     
