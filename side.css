@@ -1,18 +1,15 @@
 #ta {
-    left: 50%;
-    right: 50%;
-    margin-left:-500px;
-    margin-right:-500px;
-    position: absolute;
+    position: relative;
+    font-family:"roninfont";
     color: rgb(255, 255, 255);
     font-size: 22px;
-    margin-top: 100px;
+	margin: auto;
+	width: 50%;
+    margin-top: 80px;
     margin-bottom: 50px;
-    font-family:"roninfont";
-    background-color: #111111;
-    border: 20px solid #111111;
+    background-color: #111118;
+    border: 20px solid #111118;
     border-spacing: 100px;
-    float: left;
 }
 
 b {
@@ -20,24 +17,17 @@ b {
 }
 
 h {
-    margin-left:auto;
-    margin-right: auto;
-    color: #ffffff;
-    font-size: 30px;
-    float:left;
+	color:rgb(240, 180, 40);
 }
 
-#a1, #a2, #a3 {
-    left: 50%;
-    position: absolute;
-    margin-right: auto;
-    color: #ffffff;
-    font-family:"roninfont";
-    font-size: 24px;
-    margin-top: 25px;
-    width:192px;
-    height:30px;
-    padding:6px 6px;
+h1, h2, h3, h4, h5, h6 {
+	color:rgb(240, 180, 40);
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 20px;
 }
 
 a {
@@ -49,53 +39,44 @@ a {
 
 body {
     background-position: center;
-    position: relative;
     background-repeat: repeat;
+}
 
-    width: 1200px;
-    height: 900px;
-    margin-left: auto;
-    margin-right: auto;
+#a1, #a2, #a3 {
+    left: 50%;
+    position: absolute;
+    color:#eee;
+    opacity:0.6;
+    background:rgb(60,82,96);
+    font-family:"roninfont";
+    text-align:center;
+    font-size: 24px;
+    margin-top: -60px;
+	width:11%;
+    //width:190px;
+    height:30px;
+    padding:6px 6px;
 }
 
 #a1 {
-    background:rgb(60,82,96);
-    color:#eee;
-    float:left;
-    text-align:center;
-    opacity:0.6;
-    position:absolute;
-    margin-left: -332px;
-}
-#a1:hover {
-    background:rgb(160,182,196);
-    color:#000
+	margin-left: -14%;
+	//margin-left: -250px;
+	transform: translateX(-50%);
 }
 
 #a2 {
-    background:rgb(60,82,96);
-    color:#eee;
-    float:left;
-    text-align:center;
-    opacity:0.6;
-    position:absolute;
-    margin-left: -108px;
-}
-#a2:hover {
-    background:rgb(160,182,196);
-    color:#000
+	margin-left: 0;
+	//margin-left: 0px;
+	transform: translateX(-50%);
 }
 
 #a3 {
-    background:rgb(60,82,96);
-    color:#eee;
-    float:left;
-    text-align:center;
-    opacity:0.6;
-    position:absolute;
-    margin-left: 116px;
+	margin-left: 14%;
+	//margin-left: 250px;
+	transform: translateX(-50%);
 }
-#a3:hover {
+
+#a1:hover, #a2:hover, #a3:hover {
     background:rgb(160,182,196);
     color:#000
 }
