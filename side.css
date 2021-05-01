@@ -1,6 +1,6 @@
 #ta {
     position: relative;
-    font-family:"roninfont";
+    font-family:"Inconsolata";
     color: rgb(255, 255, 255);
     font-size: 22px;
 	margin: auto;
@@ -33,7 +33,7 @@ br {
 a {
     margin-right: auto;
     color: #ffffff;
-    font-family:"roninfont";
+    font-family:"Inconsolata";
     font-size: 20px;
 }
 
@@ -49,31 +49,27 @@ body {
     color:#eee;
     opacity:0.6;
     background:rgb(60,82,96);
-    font-family:"roninfont";
+    font-family:"Inconsolata";
     text-align:center;
     font-size: 24px;
     margin-top: -60px;
 	width:11%;
-    //width:190px;
     height:30px;
     padding:6px 6px;
 }
 
 #a1 {
 	margin-left: -14%;
-	//margin-left: -250px;
 	transform: translateX(-50%);
 }
 
 #a2 {
 	margin-left: 0;
-	//margin-left: 0px;
 	transform: translateX(-50%);
 }
 
 #a3 {
 	margin-left: 14%;
-	//margin-left: 250px;
 	transform: translateX(-50%);
 }
 
@@ -83,6 +79,6 @@ body {
 }
 
 @font-face {
-    font-family: "roninfont";
+    font-family: "Inconsolata";
     src: url(font.ttf) format("truetype");
 }
