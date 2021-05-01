@@ -38,6 +38,7 @@ a {
 }
 
 body {
+	background-image: url("res/bg.png");
     background-position: center;
     background-repeat: repeat;
 }
