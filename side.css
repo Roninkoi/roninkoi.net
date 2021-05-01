@@ -10,6 +10,7 @@
     background-color: #111118;
     border: 20px solid #111118;
     border-spacing: 100px;
+	max-width: 1080px;
 }
 
 b {
@@ -54,12 +55,14 @@ body {
     font-size: 24px;
     margin-top: -60px;
 	width:11%;
+	max-width: 250px;
     height:30px;
     padding:6px 6px;
 }
 
 #a1 {
-	margin-left: -14%;
+	//margin-left: -14%;
+	margin-left: -280px;
 	transform: translateX(-50%);
 }
 
@@ -69,7 +72,8 @@ body {
 }
 
 #a3 {
-	margin-left: 14%;
+	//margin-left: 14%;
+	margin-left: 280px;
 	transform: translateX(-50%);
 }
 
