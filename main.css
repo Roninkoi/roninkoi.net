@@ -4,7 +4,7 @@
     color: rgb(255, 255, 255);
     font-size: 22px;
 	margin: auto;
-	width: 60%;
+	width: 70%;
     margin-top: 30px;
     margin-bottom: 50px;
     background-color: #111118;
@@ -90,7 +90,7 @@ body {
 #header {
     position: relative;
 	max-width: 1080px;
-	width: 60%;
+	width: 70%;
 	//height: 360px;
 	margin: auto;
 	left: 50%;
