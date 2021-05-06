@@ -3,14 +3,14 @@
     font-family:"Inconsolata";
     color: rgb(255, 255, 255);
     font-size: 22px;
-	margin: auto;
-	width: 70%;
+    margin: auto;
+    width: 70%;
     margin-top: 30px;
     margin-bottom: 50px;
     background-color: #111118;
     border: 20px solid #111118;
     border-spacing: 100px;
-	max-width: 1080px;
+    max-width: 1080px;
 }
 
 b {
@@ -18,11 +18,11 @@ b {
 }
 
 h {
-	color:rgb(240, 180, 40);
+    color:rgb(240, 180, 40);
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color:rgb(240, 180, 40);
+    color:rgb(240, 180, 40);
 }
 
 br {
@@ -39,13 +39,13 @@ a {
 }
 
 body {
-	background-image: url("res/bg.png");
+    background-image: url("res/bg.png");
     background-position: center;
     background-repeat: repeat;
 }
 
 #a1, #a2, #a3 {
-	left:50%;
+    left:50%;
     position: relative;
     color:#eee;
     opacity:0.6;
@@ -53,24 +53,24 @@ body {
     font-family:"Inconsolata";
     text-align:center;
     font-size: 24px;
-	width:11%;
-	max-width: 250px;
-	margin-top: 20px;
+    width:14%;
+    max-width: 250px;
+    margin-top: 20px;
     height:30px;
     padding:6px 6px;
-	display: inline-block;
+    display: inline-block;
 }
 
 #a1 {
-	transform: translateX(-180%);
+    transform: translateX(-180%);
 }
 
 #a2 {
-	transform: translateX(-150%);
+    transform: translateX(-150%);
 }
 
 #a3 {
-	transform: translateX(-120%);
+    transform: translateX(-120%);
 }
 
 #a1:hover, #a2:hover, #a3:hover {

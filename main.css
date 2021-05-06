@@ -1,106 +1,28 @@
-#ta {
-    position: relative;
-    font-family:"Inconsolata";
-    color: rgb(255, 255, 255);
-    font-size: 22px;
-	margin: auto;
-	width: 70%;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    background-color: #111118;
-    border: 20px solid #111118;
-    border-spacing: 100px;
-	max-width: 1080px;
-}
-
-b {
-    color:rgb(240, 180, 40);
-}
-
-h {
-	color:rgb(240, 180, 40);
-}
-
-h1, h2, h3, h4, h5, h6 {
-	color:rgb(240, 180, 40);
-}
-
-br {
-    display: block;
-    content: "";
-    margin-top: 20px;
-}
-
-a {
-    margin-right: auto;
-    color: #ffffff;
-    font-family:"Inconsolata";
-    font-size: 20px;
-}
-
-body {
-	background-image: url("res/bg.png");
-    background-position: center;
-    background-repeat: repeat;
-}
+@import url("side.css");
 
 #a1, #a2, #a3 {
-	left:50%;
-    position: relative;
-    color:#eee;
-    opacity:0.6;
-    background:rgb(60,82,96);
-    font-family:"Inconsolata";
-    text-align:center;
-    font-size: 24px;
-	width:11%;
-	max-width: 250px;
-    height:30px;
-    padding:6px 6px;
-	display: inline-block;
-}
-
-#a1 {
-	transform: translateX(-180%);
-}
-
-#a2 {
-	transform: translateX(-150%);
-}
-
-#a3 {
-	transform: translateX(-120%);
-}
-
-#a1:hover, #a2:hover, #a3:hover {
-    background:rgb(250, 190, 90);
-    color:#000
-}
-
-@font-face {
-    font-family: "Inconsolata";
-    src: url(font.ttf) format("truetype");
+    margin-top: 0px;
 }
 
 .grid-parent {
-  display: grid;
-  grid-template-columns: 1fr 1fr
+    display: grid;
+    grid-template-columns: 1fr 1fr
 }
 
 #header {
     position: relative;
-	max-width: 1080px;
-	width: 70%;
-	//height: 360px;
-	margin: auto;
-	left: 50%;
-	transform: translateX(-50%);
-	margin-top: 20px;
-	object-fit: fill;
+    max-width: 1080px;
+    width: 70%;
+    //height: 360px;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    object-fit: fill;
 }
 
 @media only screen and (max-width: 1200px) {
     #cards {
-        display: none;
+	  display: none;
     }
 }
