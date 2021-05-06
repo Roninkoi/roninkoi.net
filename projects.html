@@ -8,20 +8,20 @@
     <meta name="description" content="Games, graphics, physics">
     <meta name="author" content="Roninkoi">
     <meta name="keywords" content="roninkoi">
-	<link rel="image_src" href="res/avatar.png">
-	
-	<meta property="og:title" content="Roninkoi" />
-	<meta property="og:description" content="Games, graphics, physics" />
-	<meta property="og:url" content="http://roninkoi.net/index.html" />
-	<meta property="og:image" content="https://roninkoi.net/res/avatar.png" />
-	<meta property="og:image:type" content="image/png" />
-	<meta property="og:image:width" content="256" />
-	<meta property="og:image:height" content="256" />
-	
-	<meta property="twitter:site" content="@roninkoi" />
-	<meta property="twitter:card" content="summary" />
-	<meta property="twitter:title" content="Roninkoi" />
-	<meta property="twitter:image:src" content="https://roninkoi.net/res/avatar.png" />
+    <link rel="image_src" href="res/avatar.png">
+    
+    <meta property="og:title" content="Roninkoi" />
+    <meta property="og:description" content="Games, graphics, physics" />
+    <meta property="og:url" content="http://roninkoi.net/index.html" />
+    <meta property="og:image" content="https://roninkoi.net/res/avatar.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="256" />
+    <meta property="og:image:height" content="256" />
+    
+    <meta property="twitter:site" content="@roninkoi" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Roninkoi" />
+    <meta property="twitter:image:src" content="https://roninkoi.net/res/avatar.png" />
     
     <title>Roninkoi</title>
     <link rel="stylesheet" type="text/css" href="side.css">
@@ -32,51 +32,61 @@
     <a id="a2" href="#">Projects</a>
     <a id="a3" href="about.html">About</a>
 
-    <div id = "ta">
-	  <h2>Games</h2>
-	  <a href="https://roninkoi.itch.io/worked-to-death">Worked to Death (2019)</a>
-	  <br>
-	  <a href="https://roninkoi.itch.io/tomb-robber">Tomb Robber (2017)</a>
-	  <br>
-	  <a href="https://roninkoi.itch.io/moore-no">Moore, No! (2016)</a>
-	  <br>
-	  <a href="https://roninkoi.itch.io/tech-raid">Tech Raid (2016)</a>
-	  <br>
-	  <a href="https://roninkoi.itch.io/revenge-of-the-ducks">Revenge of the Ducks (2015)</a>
-	  <br>
-	  <a href="https://roninkoi.itch.io/eternal-eski">Eternal Eski (2015)</a>
-	  <br>
-	  <a href="http://ludumdare.com/compo/ludum-dare-32/?action=preview&uid=28876">Daunting Disorientation (2015)</a>
-	  <br>
-	  <a href="https://roninkoi.itch.io/herbert-crawler-post-ld-edition">Herbert Crawler (2014)</a>
-	  <br>
-	  <br>
-	  <h2>Other software projects</h2>
-	  <a href="https://github.com/Roninkoi/Corium">Corium 3D game engine (C++, OpenGL)</a>
-	  <br>
-	  <a href="https://github.com/Roninkoi/Vortexy">Vortexy fluid simulator (C, OpenGL)</a>
-	  <br>
-	  <a href="https://github.com/Roninkoi/LD44">LD44 game engine (Go, Vulkan)</a>
-	  <br>
-	  <a href="https://github.com/Roninkoi/LD40">LD40 game engine (Go, WebGL)</a>
-	  <br>
-	  <a href="https://github.com/Roninkoi/CRENDER">CRENDER DOS 3D software renderer (C, x86 assembly)</a>
-	  <br>
-	  <a href="https://github.com/Roninkoi/RAKIAC">RAKIAC CPU simulator + assembler (Fortran)</a>
-	  <br>
-	  <br>
-	  <h2>Shaders (on this site)</h2>
-	  <a href="https://roninkoi.net/ShaderLelu?$cube.frag">Primitive cubic lattice</a>
-	  <br>
-	  <a href="https://roninkoi.net/ShaderLelu?$mug.frag">Mug torus homeomorphism</a>
-	  <br>
-	  <a href="https://roninkoi.net/ShaderLelu?$flower.frag">Voxel flower</a>
-	  <br>
-	  <a href="https://roninkoi.net/ShaderLelu?$vortex.frag">In the vortex of spiky things</a>
-	  <br>
-	  <a href="https://roninkoi.net/ShaderLelu?$helix.frag">Compressing helices</a>
-	  <br>
-	  <a href="https://roninkoi.net/ShaderLelu?$folding.frag">Folding stars and flowers</a>
+    <div id = "box">
+	<h2>Games</h2>
+	<div class="row" style="display: flex;">
+	  <div class="col" style="flex:25%; padding: 4px;">
+	    <img src="res/eski.png" alt="Eternal Eski" style="max-width:100%; height:100%;">
+	  </div>
+	  <div class="col" style="flex:25%; padding: 4px;">
+	    <img src="res/rotd.png" alt="Revenge of the Ducks" style="max-width:100%; height:100%;">
+	  </div>
+	  <div class="col" style="flex:25%; padding: 4px;">
+	    <img src="res/tech.png" alt="Tech Raid" style="max-width:100%; height:100%;">
+	  </div>
+	  <div class="col" style="flex:25%; padding: 4px;">
+	    <img src="res/moore.png" alt="Moore, No!" style="max-width:100%; height:100%;">
+	  </div>
+	</div> 
+	<ul style="list-style-type:none; line-height:200%;">
+	  <li><a href="https://roninkoi.itch.io/worked-to-death">Worked to Death (2019)</a></li>
+	  <li><a href="https://roninkoi.itch.io/tomb-robber">Tomb Robber (2017)</a></li>
+	  <li><a href="https://roninkoi.itch.io/moore-no">Moore, No! (2016)</a></li>
+	  <li><a href="https://roninkoi.itch.io/tech-raid">Tech Raid (2016)</a></li>
+	  <li><a href="https://roninkoi.itch.io/revenge-of-the-ducks">Revenge of the Ducks (2015)</a></li>
+	  <li><a href="https://roninkoi.itch.io/eternal-eski">Eternal Eski (2015)</a></li>
+	  <li><a href="http://ludumdare.com/compo/ludum-dare-32/?action=preview&uid=28876">Daunting Disorientation (2015)</a></li>
+	  <li><a href="https://roninkoi.itch.io/herbert-crawler-post-ld-edition">Herbert Crawler (2014)</a></li>
+	</ul>
+	<h2>Other software projects</h2>
+	<div class="row" style="display: flex;height:10%">
+	  <div class="column" style="flex:50%; padding: 4px;">
+	    <img src="https://user-images.githubusercontent.com/12766039/68994706-c8796a80-088e-11ea-8349-1ef6f7214b66.png" alt="Corium" style="max-width:100%; height:100%;">
+	  </div>
+	  <div class="column" style="flex:33%; padding: 4px;">
+	    <img src="https://user-images.githubusercontent.com/12766039/117296471-c4c01600-ae7d-11eb-9a2a-c8448858a4f5.png" alt="Vortexy" style="width:100%">
+	  </div>
+	  <div class="column" style="flex:50%; padding: 4px;">
+	    <img src="https://camo.githubusercontent.com/992324134735b3adfa739f86255cbd7f75cb1bdf1c254f0a456d4b16bd7abe51/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f533537637a4e42754c355a78635a6d72624e2f67697068792e676966" alt="CRENDER" style="max-width:100%; height:100%;">
+	  </div>
+	</div> 
+	<ul style="list-style-type:none; line-height:200%;">
+	  <li><a href="https://github.com/Roninkoi/Corium">Corium 3D game engine (C++, OpenGL)</a></li>
+	  <li><a href="https://github.com/Roninkoi/Vortexy">Vortexy fluid simulator (C, OpenGL)</a></li>
+	  <li><a href="https://github.com/Roninkoi/LD44">LD44 game engine (Go, Vulkan)</a></li>
+	  <li><a href="https://github.com/Roninkoi/LD40">LD40 game engine (Go, WebGL)</a></li>
+	  <li><a href="https://github.com/Roninkoi/CRENDER">CRENDER DOS 3D software renderer (C, x86 assembly)</a></li>
+	  <li><a href="https://github.com/Roninkoi/RAKIAC">RAKIAC CPU simulator + assembler (Fortran)</a></li>
+	</ul>
+	<h2>Shaders (on this site)</h2>
+	<ul style="list-style-type:none; line-height:200%;">
+	  <li><a href="https://roninkoi.net/ShaderLelu?$cube.frag">Primitive cubic lattice</a></li>
+	  <li><a href="https://roninkoi.net/ShaderLelu?$mug.frag">Mug torus homeomorphism</a></li>
+	  <li><a href="https://roninkoi.net/ShaderLelu?$flower.frag">Voxel flower</a></li>
+	  <li><a href="https://roninkoi.net/ShaderLelu?$vortex.frag">In the vortex of spiky things</a></li>
+	  <li><a href="https://roninkoi.net/ShaderLelu?$helix.frag">Compressing helices</a></li>
+	  <li><a href="https://roninkoi.net/ShaderLelu?$folding.frag">Folding stars and flowers</a></li>
+	</ul>
     </div>
   </body>
 </html>
