@@ -1,1 +1,2 @@
 Header set X-Frame-Options ALLOWALL
+ErrorDocument 404 /404.html
