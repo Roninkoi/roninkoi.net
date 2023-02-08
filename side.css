@@ -44,6 +44,10 @@ body {
     background-repeat: repeat;
 }
 
+td {
+    text-align: center;
+}
+
 #a1, #a2, #a3 {
     left:50%;
     position: relative;
