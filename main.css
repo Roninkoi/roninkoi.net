@@ -1,17 +1,7 @@
 @import url("side.css");
 
-body {
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
-
-#box {
-}
-
 #a1, #a2, #a3 {
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .grid-parent {
@@ -32,7 +22,7 @@ body {
     margin: auto;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 20px;
+    margin-top: 0px;
     object-fit: fill;
 }
 
@@ -52,7 +42,10 @@ th, td {
 }
 
 @media all {
-    .page-break  { display: block; page-break-before: always; }
+    .page-break {
+	  display: block;
+	  page-break-before: always
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -63,3 +56,4 @@ th, td {
 	  display: block;
     }
 }
+
