@@ -1,3 +1,10 @@
+body {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
 #box {
     position: relative;
     font-family:"Inconsolata";
@@ -67,14 +74,17 @@ td {
 
 #a1 {
     transform: translateX(-180%);
+    overflow: hidden;
 }
 
 #a2 {
     transform: translateX(-150%);
+    overflow: hidden;
 }
 
 #a3 {
     transform: translateX(-120%);
+    overflow: hidden;
 }
 
 #a1:hover, #a2:hover, #a3:hover {

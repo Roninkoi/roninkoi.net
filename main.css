@@ -1,5 +1,15 @@
 @import url("side.css");
 
+body {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#box {
+}
+
 #a1, #a2, #a3 {
     margin-top: 0px;
 }
@@ -19,7 +29,6 @@
     position: relative;
     max-width: 1080px;
     width: 70%;
-    //height: 360px;
     margin: auto;
     left: 50%;
     transform: translateX(-50%);
@@ -27,8 +36,30 @@
     object-fit: fill;
 }
 
+#links {
+    width:100%;
+    border: 2px solid #aaaaaa;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+}
+
+@media all {
+    .page-break  { display: block; page-break-before: always; }
+}
+
 @media only screen and (max-width: 1200px) {
     #cards {
 	  display: none;
+    }
+    th, td {
+	  display: block;
     }
 }
